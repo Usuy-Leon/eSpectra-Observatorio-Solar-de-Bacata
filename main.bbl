@@ -1,0 +1,495 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Brown%
+, Regnier%
+, Marsh%
+\BCBL {}\ \BBA {} Bewsher%
+}{%
+Brown%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2010}}%
+}]{%
+brown_working_nodate}
+\APACinsertmetastar {%
+brown_working_nodate}%
+\begin{APACrefauthors}%
+Brown, D.%
+, Regnier, S.%
+, Marsh, M.%
+\BCBL {}\ \BBA {} Bewsher, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Working with data from the {Solar} {Dynamics}
+  {Observatory}} {Working with data from the {Solar} {Dynamics}
+  {Observatory}}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De Pontieu%
+\ \protect \BOthers {.}}{%
+De Pontieu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2014}}%
+}]{%
+depontieu_interface_2014_IRIS}
+\APACinsertmetastar {%
+depontieu_interface_2014_IRIS}%
+\begin{APACrefauthors}%
+De Pontieu, B.%
+, Title, A\BPBI M.%
+, Lemen, J\BPBI R.%
+, Kushner, G\BPBI D.%
+, Akin, D\BPBI J.%
+, Allard, B.%
+\BDBL {}Waltham, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Interface} {Region} {Imaging} {Spectrograph}
+  ({IRIS})} {The {Interface} {Region} {Imaging} {Spectrograph}
+  ({IRIS})}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solar Physics}{289}{7}{2733--2779}.
+\newblock
+\begin{APACrefURL}
+  [{2023-03-28}]\url{http://link.springer.com/10.1007/s11207-014-0485-y}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11207-014-0485-y} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Grubecka%
+\ \protect \BOthers {.}}{%
+Grubecka%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+grubecka_height_2016}
+\APACinsertmetastar {%
+grubecka_height_2016}%
+\begin{APACrefauthors}%
+Grubecka, M.%
+, Schmieder, B.%
+, Berlicki, A.%
+, Heinzel, P.%
+, Dalmasse, K.%
+\BCBL {}\ \BBA {} Mein, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{09}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Height formation of bright points observed by {IRIS} in
+  {Mg} {II} line wings during flux emergence} {Height formation of bright
+  points observed by {IRIS} in {Mg} {II} line wings during flux
+  emergence}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{593}{}{A32}.
+\newblock
+\begin{APACrefURL}
+  [{2023-11-06}]\url{http://www.aanda.org/10.1051/0004-6361/201527358}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361/201527358} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Henriques}%
+\ \protect \BOthers {.}}{%
+{Henriques}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+SALSA_guia}
+\APACinsertmetastar {%
+SALSA_guia}%
+\begin{APACrefauthors}%
+{Henriques}, V\BPBI M\BPBI J.%
+, {Jafarzadeh}, S.%
+, {Guevara G{\'o}mez}, J\BPBI C.%
+, {Eklund}, H.%
+, {Wedemeyer}, S.%
+, {Szydlarski}, M.%
+\BDBL {}{Mohan}, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Solar ALMA Science Archive (SALSA). First release,
+  SALAT, and FITS header standard}} {{The Solar ALMA Science Archive (SALSA).
+  First release, SALAT, and FITS header standard}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{\aap}{659}{}{A31}.
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361/202142291} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lemen%
+\ \protect \BOthers {.}}{%
+Lemen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+lemen_atmospheric_2012}
+\APACinsertmetastar {%
+lemen_atmospheric_2012}%
+\begin{APACrefauthors}%
+Lemen, J\BPBI R.%
+, Title, A\BPBI M.%
+, Akin, D\BPBI J.%
+, Boerner, P\BPBI F.%
+, Chou, C.%
+, Drake, J\BPBI F.%
+\BDBL {}Waltham, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Atmospheric} {Imaging} {Assembly} ({AIA}) on the
+  {Solar} {Dynamics} {Observatory} ({SDO})} {The {Atmospheric} {Imaging}
+  {Assembly} ({AIA}) on the {Solar} {Dynamics} {Observatory} ({SDO})}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solar Physics}{275}{1-2}{17--40}.
+\newblock
+\begin{APACrefURL}
+  [{2023-03-28}]\url{https://link.springer.com/10.1007/s11207-011-9776-8}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11207-011-9776-8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ordoñez~Araujo%
+}{%
+Ordoñez~Araujo%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+araujo_dynamics_2024}
+\APACinsertmetastar {%
+araujo_dynamics_2024}%
+\begin{APACrefauthors}%
+Ordoñez~Araujo, F\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Dynamics of the {Cold} {Solar} {Chromosphere} {Observed}
+  with {ALMA}} {Dynamics of the {Cold} {Solar} {Chromosphere} {Observed} with
+  {ALMA}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{National University of Colombia, Repository}{}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{https://repositorio.unal.edu.co/handle/unal/85838}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ordoñez~Araujo%
+, Guevara~Gómez%
+\BCBL {}\ \BBA {} Calvo~Mozo%
+}{%
+Ordoñez~Araujo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+gibhub_reporsitory_alignment}
+\APACinsertmetastar {%
+gibhub_reporsitory_alignment}%
+\begin{APACrefauthors}%
+Ordoñez~Araujo, F\BPBI J.%
+, Guevara~Gómez, J\BPBI C.%
+\BCBL {}\ \BBA {} Calvo~Mozo, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {Alignment-of-IRIS-ALMA-and-SDO-images.}
+  {Alignment-of-iris-alma-and-sdo-images.}
+\newblock
+\APAChowpublished
+  {\url{https://github.com/JavierOrdonezA/Alignment-of-IRIS-ALMA-and-SDO-images.git}}.
+\newblock
+\APACrefnote{Accessed on April 13th, 2023.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{Pesnell}%
+, {Thompson}%
+\BCBL {}\ \BBA {} {Chamberlin}%
+}{%
+{Pesnell}%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+SDO_pesnell}
+\APACinsertmetastar {%
+SDO_pesnell}%
+\begin{APACrefauthors}%
+{Pesnell}, W\BPBI D.%
+, {Thompson}, B\BPBI J.%
+\BCBL {}\ \BBA {} {Chamberlin}, P\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{The Solar Dynamics Observatory (SDO)}} {{The Solar
+  Dynamics Observatory (SDO)}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{\solphys}{275}{1-2}{3-15}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11207-011-9841-3} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scherrer%
+\ \protect \BOthers {.}}{%
+Scherrer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+scherrer_helioseismic_2012}
+\APACinsertmetastar {%
+scherrer_helioseismic_2012}%
+\begin{APACrefauthors}%
+Scherrer, P\BPBI H.%
+, Schou, J.%
+, Bush, R\BPBI I.%
+, Kosovichev, A\BPBI G.%
+, Bogart, R\BPBI S.%
+, Hoeksema, J\BPBI T.%
+\BDBL {}Tomczyk, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Helioseismic} and {Magnetic} {Imager} ({HMI})
+  {Investigation} for the {Solar} {Dynamics} {Observatory} ({SDO})} {The
+  {Helioseismic} and {Magnetic} {Imager} ({HMI}) {Investigation} for the
+  {Solar} {Dynamics} {Observatory} ({SDO})}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Solar Physics}{275}{1-2}{207--227}.
+\newblock
+\begin{APACrefURL}
+  [{2022-02-09}]\url{http://link.springer.com/10.1007/s11207-011-9834-2}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11207-011-9834-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Starovoitov%
+, E.E.%
+\BCBL {}\ \BBA {} K.T.%
+}{%
+Starovoitov%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+sim_vs_pcc_2020}
+\APACinsertmetastar {%
+sim_vs_pcc_2020}%
+\begin{APACrefauthors}%
+Starovoitov, V.%
+, E.E., E.%
+\BCBL {}\ \BBA {} K.T., I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparative analysis of the SSIM index and the Pearson
+  coefficient as a criterion for image similarity} {Comparative analysis of the
+  ssim index and the pearson coefficient as a criterion for image
+  similarity}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Eurasian Journal of Mathematical and Computer
+  Applications}{8}{}{76-90}.
+\newblock
+\begin{APACrefDOI} \doi{10.32523/2306-6172-2020-8-1-76-90} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vernazza%
+, Avrett%
+\BCBL {}\ \BBA {} Loeser%
+}{%
+Vernazza%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1981}}%
+}]{%
+vernazza_structure_1981}
+\APACinsertmetastar {%
+vernazza_structure_1981}%
+\begin{APACrefauthors}%
+Vernazza, J\BPBI E.%
+, Avrett, E\BPBI H.%
+\BCBL {}\ \BBA {} Loeser, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1981}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Structure of the solar chromosphere. {III} - {Models} of
+  the {EUV} brightness components of the quiet-sun} {Structure of the solar
+  chromosphere. {III} - {Models} of the {EUV} brightness components of the
+  quiet-sun}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Astrophysical Journal Supplement
+  Series}{45}{}{635}.
+\newblock
+\begin{APACrefURL}
+  [{2023-05-11}]\url{http://adsabs.harvard.edu/doi/10.1086/190731}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1086/190731} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wang%
+, Bovik%
+, Sheikh%
+\BCBL {}\ \BBA {} Simoncelli%
+}{%
+Wang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+wang_image_2004_SSIM}
+\APACinsertmetastar {%
+wang_image_2004_SSIM}%
+\begin{APACrefauthors}%
+Wang, Z.%
+, Bovik, A.%
+, Sheikh, H.%
+\BCBL {}\ \BBA {} Simoncelli, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Image {Quality} {Assessment}: {From} {Error}
+  {Visibility} to {Structural} {Similarity}} {Image {Quality} {Assessment}:
+  {From} {Error} {Visibility} to {Structural} {Similarity}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Transactions on Image
+  Processing}{13}{4}{600--612}.
+\newblock
+\begin{APACrefURL}
+  [{2023-03-29}]\url{http://ieeexplore.ieee.org/document/1284395/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/TIP.2003.819861} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wedemeyer%
+\ \protect \BOthers {.}}{%
+Wedemeyer%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+wedemeyer_sun_2020_ALMA_band_3}
+\APACinsertmetastar {%
+wedemeyer_sun_2020_ALMA_band_3}%
+\begin{APACrefauthors}%
+Wedemeyer, S.%
+, Szydlarski, M.%
+, Jafarzadeh, S.%
+, Eklund, H.%
+, Guevara~Gomez, J\BPBI C.%
+, Bastian, T.%
+\BDBL {}Carlsson, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Sun} at millimeter wavelengths: {I}. {Introduction}
+  to {ALMA} {Band} 3 observations} {The {Sun} at millimeter wavelengths: {I}.
+  {Introduction} to {ALMA} {Band} 3 observations}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Astronomy \& Astrophysics}{635}{}{A71}.
+\newblock
+\begin{APACrefURL}
+  [{2023-04-17}]\url{https://www.aanda.org/10.1051/0004-6361/201937122}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1051/0004-6361/201937122} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wootten%
+\ \BBA {} Thompson%
+}{%
+Wootten%
+\ \BBA {} Thompson%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+wootten_atacama_2009}
+\APACinsertmetastar {%
+wootten_atacama_2009}%
+\begin{APACrefauthors}%
+Wootten, A.%
+\BCBT {}\ \BBA {} Thompson, A\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Atacama} {Large} {Millimeter}/submillimeter
+  {Array}} {The {Atacama} {Large} {Millimeter}/submillimeter {Array}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the IEEE}{97}{8}{1463--1471}.
+\newblock
+\begin{APACrefURL} [{2023-11-27}]\url{http://arxiv.org/abs/0904.3739}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{arXiv:0904.3739 [astro-ph]}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/JPROC.2009.2020572} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yeager%
+}{%
+Yeager%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+yeager_libguides_nodate}
+\APACinsertmetastar {%
+yeager_libguides_nodate}%
+\begin{APACrefauthors}%
+Yeager, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{03}}}{}.
+\newblock
+\APACrefbtitle {{LibGuides}: {SPSS} {Tutorials}: {Pearson} {Correlation}.}
+  {{LibGuides}: {SPSS} {Tutorials}: {Pearson} {Correlation}.}
+\newblock
+\begin{APACrefURL}
+  [{2023-03-29}]\url{https://libguides.library.kent.edu/SPSS/PearsonCorr}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
