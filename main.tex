@@ -109,13 +109,22 @@ Para integrar estas relaciones territoriales hace falta de un observatorio solar
 
 En el presente trabajo,  utilizamos la ubicación actual de las iglesias de Guadalupe y Monserrate como puntos de geo-referencia para calcular la posición ideal de observación solar durante los equinoccios y solsticios. Mediante el análisis de los ángulos teóricos del azimut solar para estas fechas astronómicamente significativas, determinamos el área óptima para las observaciones solares. Nuestros cálculos revelan que esta área no corresponde a la Plaza de Bolívar, como se acepta actualmente, sino que se localiza con mayor aproximacion a otro sector del centro histórico bogotano: la zona del Chorro de Quevedo en La Candelaria. Adicionalmente, evaluamos la proximidad angular de las seis principales iglesias históricas del centro de Bogotá respecto a los ángulos ideales de observación. Estos hallazgos sugieren nuevas implicaciones para el entendimiento del sincretismo cultural y el desarrollo del astroturismo en la capital colombiana.
 
-%------------------------------------------------------------
+%------------------------------------------------------
+\vspace{-\baselineskip}  % Elimina una línea de espacio
+\justifying
 \section{Metodos}
 
 \subsection{Definición de Cordenadas}
-Se selecciónaron de 8 ubicaciones  de iglesias, ermitas y parroquias  históricas de Bogotá, Todas con inicio de costruccion en los primeros 100 años de la fundacion de la ciudad. Especificamente  la Iglesia de nuestra señora de la Candelaria, La parroquia de nuestra señora de Egipto, La iglesia de veracruz, La ermita de san miguel del principe, La catedral primada, y La catedral de San Carlos. 
+\justifying
+Se selecciónaron de 8 ubicaciones  de iglesias, ermitas y parroquias  históricas de Bogotá, Todas con inicio de costruccion en los primeros 100 años de la fundacion de la ciudad.
+
+\centering
+   \includegraphics[width=0.5\textwidth]{images/timeline_events.png}
+\captionof{figure}{ Linea de tiempo construccion de lugares historicos del centro de Bogota. }
+
+\justifying
+Especificamente  la Iglesia de nuestra señora de la Candelaria, La parroquia de nuestra señora de Egipto, La iglesia de veracruz, La ermita de san miguel del principe, La catedral primada, y La catedral de San Carlos. 
 Para cada uno de estos sitios se definieron coordenadas  GPS ( con una incertidumbre de 7m) , abarcando latitud, longitud y altitud. Las cordenadas fueron usadas para crear 8 triangulos siempre usando como puntos fijos de referencia La ubicacion de la basilisca de nuestro señor de monserrate y La ermita de nuestra señora de guadalupe. Adicionalmente, se calculo un triangulo ideal que estuviera compuesto por los angulos de azimuth ideales cada los solsticios de invierno y de verano, y con puntos fijos en las iglesias de monserrte y guadalupe.
-\smallskip
 
 \centering
    \includegraphics[width=0.5\textwidth]{images/Pasted image 20250617164513.png}
@@ -169,30 +178,31 @@ Z &= (R + h) \, \sin(\varphi_{\text{rad}})
 \subsection{Cálculo de Ángulos}
 Para calcular los ángulos interiores de cada triángulo en el espacio tridimensional se computó vectores entre los puntos transformados mediante operaciones de resta vectorial, determinó el producto punto entre estos vectores y se normalizó por sus magnitudes respectivas.  Culminando con la conversión final del ángulo resultante de radianes a grados para su interpretación geométrica.
 
-
+\smallskip
 
 Para los tres puntos en el espacio:
 \[
-G(x_1, y_1, z_1), \quad M(x_2, y_2, z_2), \quad I(x_3, y_3, z_3)
+A(x_1, y_1, z_1), \quad B(x_2, y_2, z_2), \quad C(x_3, y_3, z_3)
 \]
 
 Los vectores formados son:
 \[
-\vec{GM} = \vec{M} - \vec{G}, \quad
-\vec{GI} = \vec{I} - \vec{G}
+\vec{AB} = \vec{B} - \vec{A}, \quad
+\vec{AC} = \vec{C} - \vec{A}
 \]
 
 El ángulo en el vértice \(A\) se calcula mediante:
 \[
-\theta_G = \arccos \left(
-\frac{ \vec{GM} \cdot \vec{GI} }{ \lVert \vec{GM} \rVert \, \lVert \vec{GI} \rVert }
+\theta_A = \arccos \left(
+\frac{ \vec{AB} \cdot \vec{AC} }{ \lVert \vec{AB} \rVert \, \lVert \vec{AC} \rVert }
 \right) \times \frac{180}{\pi}
 \]
 
 De forma análoga se obtienen los ángulos:
 \[
-\theta_M, \ \theta_I
+\theta_B, \ \theta_C
 \]
+
 \vspace{-\baselineskip}  % Elimina una línea de espacio
 \vspace{-0.5\baselineskip}  % Elimina media línea
 
@@ -204,43 +214,52 @@ Para analizar la disimilitud de la suma de la diferencia absoluta de cada triang
 
 \begin{equation}
 \% \text{Disimilitud} = 
-\frac{ \left| G - G' \right| + \left| M - M' \right| + \left| I - I' \right| }{180} \times 100
+\frac{ \left| A - A' \right| + \left| B - B' \right| + \left| C - C' \right| }{180} \times 100
 \label{eq:dissimilarity}
 \end{equation}
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Triángulo} & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{Disimilitud} \\ \hline
+Chorro de Quevedo & 66.43° & 66.33° & 47.24° & 1.71\% \\ \hline
+Iglesia la Candelaria & 69.96° & 69.00° & 41.04° & 5.18\% \\ \hline
+Catedral Primada & 67.94° & 75.63° & 36.43° & 10.3\% \\ \hline
+Iglesia Egipto & 77.63° & 56.07° & 46.31° & 12.26\% \\ \hline
+San Francisco & 57.47° & 83.99° & 38.54° & 18.77\% \\ \hline
+\end{tabular}
+\caption{Comparación de ángulos y porcentaje de disimilitud entre triángulos.}
+\end{table}
+\vspace{-\baselineskip}  % Elimina una línea de espacio
+\vspace{-0.5\baselineskip}  % Elimina media línea
 
 \subsection{Entorno Computacional}
 La implementación metodológica se ejecutó en Python, aprovechando librerías especializadas para cálculo científico y visualización de datos. Todos los cálculos trigonométricos y la generacion de gráficas, se encuentra publico y disponible bajo la licencia Apache 2.0 en \href{https://github.com/Usuy-Leon/El-secreto-astronomico-de-Guadalupe-Monserrate}{Github}
 
+\centering
+   \includegraphics[width=0.51\textwidth]{images/Triangles.png}
+   \includegraphics[width=0.45\textwidth]{images/triangles_with_arcs.png}
+\captionof{figure}{ Representacion 3D y 2D de los triangulos de alineaciones solares y su disismilitud y similitud con respecto al triangulo de observacion ideal. }
 
-%-------------------------------------------------------------
-
-
-
-
+\justifying
 
 
 \section{Resultados y analisis}
+los ángulos obtenidos en el cuadro 2 evidencian una alta correspondencia entre el cálculo teórico del punto de observación ideal del amanecer solar y la ubicación de la ermita de san miguel del principe, en el Chorro de Quevedo, este sitio considerado el lugar fundacional de la ciudad de Bogotá. La precisión del alineamiento sugiere que desde este punto es posible observar con gran cercanía la trayectoria solar en fechas de solsticios y equinoccios, lo que sugiere  que el punto de inicio de la ciudad no fue elegido al azar, sino que responde a criterios astronómicos o simbólicos asociados a la cosmovisión indígena.
 
+Curiosamente, el área del Chorro de Quevedo se encuentra próxima a una vía cuyo nombre histórico es la Calle del sol, hecho que adquiere relevancia al contrastarlo con la alineación calculada. Esta coincidencia entre la orientación astronómica y la toponimia urbana parece reflejar una continuidad simbólica entre el orden espacial colonial y la antigua observación del cielo.
 
+En 1774, el virrey Manuel Guirior, el 10 de noviembre, ordenó la organización y denominación de las calles principales de Bacatá, instruyendo a los alcaldes locales para asignar nombres distintivos a cada una de ellas. Tal como señala Mejía (1999), “todo nombre de calles implicaba una asociación que permitía materializar en la mente de los habitantes una forma colectiva de percibir el espacio”. En este sentido, la existencia de una “Calle de la Luna” en las inmediaciones del punto fundacional puede interpretarse como un vestigio de esa práctica simbólica: una forma de inscribir en la ciudad una relación entre el espacio urbano y los fenómenos celestes.
 
+El Chorro de Quevedo, además de ser reconocido como el punto donde se fundó la ciudad por Gonzalo Jiménez de Quesada, tuvo probablemente una función previa de carácter ritual o astronómico para las comunidades muiscas, quienes realizaban observaciones del Sol y la Luna desde puntos estratégicos del altiplano. Por su posición elevada y su visibilidad del horizonte oriental, el lugar habría facilitado la identificación de los ciclos lunares y solares, fundamentales en el calendario agrícola y ceremonial indígena.
 
-
-
-Using the helioprojective coordinates obtained through the proposed alignment method, along with the headers from SDO and IRIS data, we created Figure  to visually illustrate the alignment results. In the left and center columns, we present the SDO and IRIS observations, res
-
- 
+En conjunto, la coincidencia entre la alineación astronómica, la denominación histórica de la “Calle de la Luna” y la ubicación fundacional del Chorro de Quevedo sugiere una continuidad de sentido entre el pasado indígena y el trazado colonial, donde el espacio urbano conserva, de manera simbólica o inconsciente, la memoria de su antigua relación con los cuerpos celestes.
 
 \section{Conclusions}
 The proposed alignment process, detailed in   Sections
-successfully aligns ALMA and IRIS images using the helioprojective coordinates from SDO as a reference point. The percentage discrepancy between  the PCC and the SSIM methods to estimate correlations between the datasets. PCC is chosen as the preferred method due to its reliability in cases of vastly different datasets and its significant computational advantages over SSIM. The results exhibit less than a 1.0\,arcsec variation between the average centers determined by the two methods, ensuring consistency in the final alignment results.
-
-
-It is worth noting that the proposed method can also be used for aligning images from other telescopes. However, caution should be exercised when selecting the AIA filter to serve as a reference for alignment. The choice should ensure that the formation height of the emission line in the reference filter is close to the formation height of the data being aligned. This will ensure an effective and accurate correlation between the images, as the method relies on analyzing the correlation and similarity between them. It should be also relatively simple to adapt the method roach could further enhance the precision of image alignment and contribute to a deeper understanding of the small-scale solar phenomena.
-
-
-
-
-
+successfully aligns ALMA and IRIS images using the helioprojective coordinates from SDO as a reference point. The 
 
 
 \section*{Acknowledgments}
@@ -249,32 +268,6 @@ This paper makes use of the following ALMA data: ADS/JAO.ALMA\#2017.1.00653.S. A
 
 
 
-
-
-
-
-
-
-
-
-%\section{Conclusiones}
-
-
-
-%\section*{Referencias bibliográficas}
-%Para incluir la lista de referencias bibliográficas se puede hacer de las dos formas que se indican abajo: ingresando cada referencia con el comando "bibitem" en este documento, o usando un el archivo bibligrafia.bib.
-%Para citar una referencia bibliográfica en el texto, se utiliza el comando \verb|\cite{}|. Por ejemplo, si queremos citar un artículo de un autor llamado Scargle publicado en 1982, escribimos \cite{scargle_1982}, que se encuentra en este caso en el listado de artículos dentro del archivo bibliografia.bib.
-
-%Forma 1 de incluir referencias
-%\begin{thebibliography}{}
- %  \bibitem{smith2005}
-  % Smith, J. (2005). Título del artículo. Nombre de la revista, vol. 1, páginas 1-10.
-   % \bibitem{jones2010}
-    %Jones, A. (2010). Título del libro. Editorial X.
-%\end{thebibliography}
-
-
-%Forma 2 de incluir referencias
 \bibliography{biblio}
 
 \end{document}
