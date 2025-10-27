@@ -25,7 +25,8 @@
 \usepackage{aas-macros}
 \usepackage{doi}
 \usepackage{fontawesome5}
-\usepackage[left]{lineno}
+\usepackage[left]{lineno}  
+
 
 \renewcommand{\doitext}{}
 
@@ -38,6 +39,10 @@
 
 %%% Flushend: You can add this package to automatically balance the final page, but if things go awry (e.g. section contents appearing out-of-order or entire blocks or paragraphs are coloured), remove it!
 % \usepackage{flushend}
+
+\renewcommand{\tablename}{Cuadro}          % Cambia la palabra en la leyenda de la tabla
+\def\tableautorefname{Cuadro}              % Cambia la palabra que usa \autoref para tablas
+\def\figureautorefname{Figura}            
 
 
 \title{El Observatorio Solar de Bacatá: Nuevas perspectivas Arqueo-astronómicas en el centro histórico de Bogotá.}
@@ -92,7 +97,7 @@ Calendarios Horizonte: Arqueoastronomía, Observatorio Solar, Sincretismo Cultur
 
 \section{Introducion}
 
-La concepción del tiempo para la cultura muisca estaba profundamente relacionada con la observación del dios sol «Xué» y la luna «Chia». Así como con los ciclos de lluvias y sequias anuales de la Sabana de Bogotá \cite{langebaek_muiscas_2005}. Los xeques, observaban cuidadosamente el movimiento de los astros para determinar momentos como el inicio de la temporada de lluvia (entre marzo y abril, cercana al equinoccio de primavera y el inicio de la sequía entre diciembre y enero, coincidente con el solsticio de invierno).  Estas observaciones estuvieron involucradas en la estructura de organización agrícola, permitiendo identificar los periodos propicios para la siembra y la cosecha del maíz y otros cultivos esenciales \cite{duquesne_calendario_acosta_1848}.
+La concepción del tiempo para la cultura muisca estaba profundamente relacionada con la observación del dios sol «Xué» y la luna «Chia». Así como con los ciclos de lluvias y sequias anuales de la Sabana de Bogotá \cite{langebaek_muiscas_2005}. Los Zipas, observaban cuidadosamente el movimiento de los astros para determinar momentos como el inicio de la temporada de lluvia (entre marzo y abril, cercana al equinoccio de primavera y el inicio de la sequía entre diciembre y enero, coincidente con el solsticio de invierno).  Estas observaciones estuvieron involucradas en la estructura de organización agrícola, permitiendo identificar los periodos propicios para la siembra y la cosecha del maíz y otros cultivos esenciales \cite{duquesne_calendario_acosta_1848}.
 
 El término «calendario de horizonte» designa los sistemas de medición del tiempo basados en la observación de la posición aparente del sol, al amanecer o al atardecer, con respecto a puntos fijos del horizonte natural, como estructuras o cadenas montañosas. En contextos cercanos al ecuador, donde la variación estacional en la duración del día es mínima, estos marcadores geográficos permitieron a las comunidades indígenas determinar con precisión los extremos solares (solsticios) y los puntos medios (equinoccios), que sirven como referencia para un calendario anual \cite{quijano_astronomia_2021}. En el paisaje de la Sabana de Bogotá, el arte rupestre de las comunidades muiscas constituye una evidencia material directa de su observación astronómica. Investigaciones arqueológicas han identificado pictogramas con motivos circulares rodeados de líneas radiadas y figuras zoomorfas interpretadas como representaciones del Sol \cite{munoz_animales_2009, martinez_manual_2004}. Curiosamente, en la sabana de Facatativá y Soacha, las figuras solares aparecen grabadas junto a imágenes de ranas \cite{saenz_cepeda_2020}. Algunos autores resaltan la importancia del sonido del canto de las ranas durante sus momentos reproductivos como indicador de siembra para el pueblo muisca \cite{duquesne_calendario_manuscript_1795}. Considerando que las especies de la sabana como \textit{Rhinella humboldti}  y  \textit{Hypsiboas crepitans} , poseen momentos reproductivos y picos de actividad fijos \cite{cortes_gallo_ecologia_reproductiva_2024}, siempre asociados al inicio de la estación lluviosa de los meses de marzo-abril (mes de equinoccio de primavera). Podríamos sugerir una integración territorial que relacione ciclos solares, lluvias e indicadores biológicos, todos componentes previamente descritos dentro la cosmovisión y arte rupestre muisca. 
 
@@ -121,6 +126,7 @@ Se selecciónaron de 8 ubicaciones  de iglesias, ermitas y parroquias  históric
 \centering
    \includegraphics[width=0.5\textwidth]{images/timeline_events.png}
 \captionof{figure}{ Linea de tiempo de inicio de construccion de lugares hiistoricos del centro de Bogota. }
+\smallskip
 
 \justifying
 Especificamente  la Iglesia de nuestra señora de la Candelaria, La parroquia de nuestra señora de Egipto, La iglesia de veracruz, La ermita de san miguel del principe, La catedral primada, y La catedral de San Carlos. 
@@ -138,7 +144,7 @@ Para cada uno de estos sitios se definieron coordenadas  GPS ( con una incertidu
 \[Azimuth=\arctan \left(
 \frac{\sin(H)}{\cos(H)\sin(\varphi) - \tan(\delta)\cos(\varphi)}
 \right)\]
-\noindent \(H\)= ángulo del Sol, \(\varphi =\) Latitud , \(\delta = \pm 23.44^\circ\): Declinación solar.
+\noindent \(H\)= ángulo del Sol, \(\varphi =\) Latitud , \(\delta = \pm 23.44^\circ\)Declinación solar.
 
 \begin{table}[h!]
 \centering
@@ -147,9 +153,11 @@ Para cada uno de estos sitios se definieron coordenadas  GPS ( con una incertidu
 \textbf{Fecha} & \textbf{Azimut}  & \textbf{Dirección} \\ \hline
 Equinoccio & 90.0° & Este \\ \hline
 Solsticio de verano & 67.1° & Noreste \\ \hline
-Solsticio de invierno & 67.2° & Sureste \\ \hline
+Solsticio de invierno & 112.8° & Sureste \\ \hline
 \end{tabular}
+\smallskip
 \caption{Angulos Ideales de observacion de salida del Sol}
+\label{Cuadro 1}
 \end{table}
 
 \vspace{-\baselineskip}  % Elimina una línea de espacio
@@ -215,7 +223,6 @@ Para analizar la disimilitud de la suma de la diferencia absoluta de cada triang
 \begin{equation}
 \% \text{Disimilitud} = 
 \frac{ \left| A - A' \right| + \left| B - B' \right| + \left| C - C' \right| }{180} \times 100
-\label{eq:dissimilarity}
 \end{equation}
 
 
@@ -230,37 +237,36 @@ Catedral Primada & 67.94° & 75.63° & 36.43° & 10.3\% \\ \hline
 Iglesia Egipto & 77.63° & 56.07° & 46.31° & 12.26\% \\ \hline
 San Francisco & 57.47° & 83.99° & 38.54° & 18.77\% \\ \hline
 \end{tabular}
+\smallskip
 \caption{Comparación de ángulos y porcentaje de disimilitud entre cada triángulo con respecto al ideal.}
+\label{Cuadro 2}
 \end{table}
 \vspace{-\baselineskip}  % Elimina una línea de espacio
-\vspace{-0.5\baselineskip}  % Elimina media línea
+\vspace{-\baselineskip}  % Elimina media línea
+\centering
+\includegraphics[width=0.50\textwidth]{images/Triangles.png}
+    \captionof{figure}{ Representacion 3D (altitud, latitud y longitud) de los triangulos de alineaciones solares y su disimilitud y similitud con respecto al triangulo de observacion ideal. }
+    \label{Figura 4}
+   \includegraphics[width=0.45\textwidth]{images/triangles_with_arcs.png}
+    \captionof{figure}{ Representacion  2D latitud y longitud de los triangulos sus puntos fijos corresponden a las cordenadas de guadalupe y monserrate. }
+    \label{Figura 5}
 
+\justifying
 \subsection{Entorno Computacional}
 La implementación metodológica se ejecutó en Python, aprovechando librerías especializadas para cálculo científico y visualización de datos. Todos los cálculos trigonométricos y la generacion de gráficas, se encuentra publica y disponible bajo la licencia Apache 2.0 en \href{https://github.com/Usuy-Leon/El-secreto-astronomico-de-Guadalupe-Monserrate}{Github}
 
-\centering
-   \includegraphics[width=0.50\textwidth]{images/Triangles.png}
-    \captionof{figure}{ Representacion 3D (altitud, latitud y longitud) de los triangulos de alineaciones solares y su disimilitud y similitud con respecto al triangulo de observacion ideal. }
-   \includegraphics[width=0.45\textwidth]{images/triangles_with_arcs.png}
-    \captionof{figure}{ Representacion  2D latitud y longitud de los triangulos sus puntos fijos corresponden a las cordenadas de guadalupe y monserrate. }
-
-\justifying
 
 
 \section{Resultados y analisis}
-idea 1
-los ángulos obtenidos en el cuadro 2 evidencian una alta correspondencia entre el cálculo teórico del punto de observación ideal del amanecer solar y la ubicación de la ermita de san miguel del principe, en el Chorro de Quevedo, este sitio considerado el lugar fundacional de la ciudad de Bogotá. La precisión del alineamiento sugiere que desde este punto es posible observar con gran cercanía la alineacion natural durante solsticios y equinoccios, lo que sugiere  que el punto de inicio de la ciudad no fue elegido al azar, sino que responde a criterios astronómicos o simbólicos asociados a la cosmovisión indígena.
-idea 2
-Curiosamente, el área del Chorro de Quevedo se encuentra próxima a una vía cuyo nombre histórico es la Calle del sol, hecho que adquiere relevancia al contrastarlo con la alineación calculada. Esta coincidencia entre la orientación astronómica y la toponimia urbana parece reflejar una continuidad simbólica entre el orden espacial colonial y la antigua observación del cielo.
+Los ángulos de azimuth calculados, presentados en el \autoref{Cuadro 1}, fueron calculados tomando en cuenta la latitud de un observador ubicado en la Candelaria, Centro de Bogota. Estos angulos toman el norte real como punto de referencia 0°. Si se considera un triangulo formado por los angulos de los dos solsticios, se opbtiene un triangulo con sus tres angulos A= 67.1, B = 67.2 y C = 45.7. Este triangulo es considerado como el triangulo de observacion ideal que fue usado para la comparacion de los porcentajes de disimilitud (\autoref{Cuadro 2}). En la \autoref{Figura 4} se evidencian una disimilitud de menos del 2.5 \% entre el punto de observación solar teórico y la ubicación de la ermita de San Miguel del Príncipe, en el Chorro de Quevedo, en otras palabras una similitud del 98.3 \%  entre el sitio fundacional de Bogotá y el triagulo de alineamiento ideal.
 
-En 1774, el virrey Manuel Guirior, el 10 de noviembre, ordenó la organización y denominación de las calles principales de Bacatá, instruyendo a los alcaldes locales para asignar nombres distintivos a cada una de ellas. Tal como señala Mejía (1999), “todo nombre de calles implicaba una asociación que permitía materializar en la mente de los habitantes una forma colectiva de percibir el espacio”. En este sentido, la existencia de una “Calle del sol” en las inmediaciones del punto fundacional puede interpretarse como un vestigio de esa práctica simbólica: una forma de inscribir en la ciudad una relación entre el espacio urbano y los fenómenos celestes.
+Para \cite{martínez1987santafé} el chorro de Quevedo punto de origen de la fundacion de Bogotá, fue ubicado sobre un previo asentamiento indigena, conocidp como el lugar de descanso del zipa, y más tarde denominado Pueblo Viejo, cuya posición privilegiada le daba una panorámica de toda la sabana. En el presente trabajo se sugiere que quiza la ubicacion de este primer asentamiento tuvo  consideraciones astronómicas y simbólicas previas vinculadas con la cosmovisión indígena.
 
-idea 3
-La catedral primada de bogota no posee la mejor alineacion respecto a os anculos teoricos ni tampoco un fuerte fundamento historico. Poe el contrario, El Chorro de Quevedo, además de ser reconocido como el punto donde se fundó la ciudad por Gonzalo Jiménez de Quesada, tuvo probablemente una función previa de carácter ritual o astronómico para las comunidades muiscas, quienes realizaban observaciones del Sol y la Luna desde puntos estratégicos del altiplano. Por su posición elevada y su visibilidad del horizonte oriental, el lugar habría facilitado la identificación de los ciclos lunares y solares, fundamentales en el calendario agrícola y ceremonial indígena.
+Curiosamente en el area de observacion ideal de Esta interpretación se ve reforzada por la toponimia histórica del sector, donde destaca la presencia de la "Calle del Sol" en las inmediaciones del Chorro de Quevedo. La coincidencia entre la orientación astronómica calculada y esta denominación urbana sugiere una continuidad simbólica entre el ordenamiento colonial y las prácticas ancestrales de observación celeste. El contexto histórico de esta nomenclatura, establecida en 1774 por el virrey Manuel Guirior, adquiere especial relevancia considerando que, como señala Mejía (1999), "todo nombre de calles implicaba una asociación que permitía materializar en la mente de los habitantes una forma colectiva de percibir el espacio". La persistencia de esta denominación solar en el entorno fundacional puede interpretarse, por tanto, como un vestigio de la significación astronómica del lugar.
 
-Idea 4 
+Contrariamente a lo que se ha supuesto tradicionalmente, la Catedral Primada no presenta la mejor alineación con los ángulos teóricos calculados, ni cuenta con un sustento histórico sólido como observatorio solar. En cambio, el Chorro de Quevedo, además de su reconocido papel en la fundación hispánica por Gonzalo Jiménez de Quesada, probablemente cumplió una función previa de carácter ritual y astronómico para las comunidades muiscas. Su posición elevada y la visibilidad del horizonte oriental lo habrían convertido en un lugar estratégico para la observación de los ciclos solares y lunares, fundamentales para el calendario agrícola y ceremonial indígena.
 
-Area de observacion actual, restaurar esta practica dentro de la  cultura bogotana contemporanea
+Estos hallazgos no solo replantean nuestra comprensión del urbanismo temprano de Bogotá, sino que abren posibilidades para la revalorización contemporánea de estas prácticas astronómicas. La recuperación de este conocimiento ancestral, integrado en la cultura bogotana actual, podría constituir un valioso aporte al patrimonio cultural y al desarrollo del astroturismo en la capital, restableciendo así el vínculo entre la ciudad moderna y su memoria celeste.
 
 \section{Conclusions}
 The proposed alignment process, detailed in   Sections
