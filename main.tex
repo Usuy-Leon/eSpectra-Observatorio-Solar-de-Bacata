@@ -8,7 +8,7 @@
 
 %\documentclass[letterpaper]{aejstyles}
 \documentclass[a4paper,alpha-refs]{eSpectra}
-
+\usepackage[utf8]{inputenc}
 %%% Journal toggle; only specific options recognised.
 \journal{aej}
 
@@ -99,7 +99,7 @@ El término «calendario de horizonte» designa los sistemas de medición del ti
 \smallskip
 \centering
    \includegraphics[width=0.5\textwidth]{images/bitmap.png}
-\captionof{figure}{ Pictogramas de la sabana de Cundinamarca (facatativa): Las formas representadas corresponden a diseños de manos, soles y formas zoomorfas, especialmente raniformes. Adaptado de \cite{saenz_cepeda_2020}} 
+\captionof{figure}{ Pictogramas de la sabana de Cundinamarca (facatativa): Las formas representadas corresponden a diseños de soles y formas zoomorfas, especialmente raniformes. Adaptado de \cite{saenz_cepeda_2020}} 
 \justifying
 
 \smallskip
@@ -120,7 +120,7 @@ Se selecciónaron de 8 ubicaciones  de iglesias, ermitas y parroquias  históric
 
 \centering
    \includegraphics[width=0.5\textwidth]{images/timeline_events.png}
-\captionof{figure}{ Linea de tiempo construccion de lugares historicos del centro de Bogota. }
+\captionof{figure}{ Linea de tiempo de inicio de construccion de lugares hiistoricos del centro de Bogota. }
 
 \justifying
 Especificamente  la Iglesia de nuestra señora de la Candelaria, La parroquia de nuestra señora de Egipto, La iglesia de veracruz, La ermita de san miguel del principe, La catedral primada, y La catedral de San Carlos. 
@@ -239,23 +239,28 @@ San Francisco & 57.47° & 83.99° & 38.54° & 18.77\% \\ \hline
 La implementación metodológica se ejecutó en Python, aprovechando librerías especializadas para cálculo científico y visualización de datos. Todos los cálculos trigonométricos y la generacion de gráficas, se encuentra publico y disponible bajo la licencia Apache 2.0 en \href{https://github.com/Usuy-Leon/El-secreto-astronomico-de-Guadalupe-Monserrate}{Github}
 
 \centering
-   \includegraphics[width=0.51\textwidth]{images/Triangles.png}
+   \includegraphics[width=0.50\textwidth]{images/Triangles.png}
+    \captionof{figure}{ Representacion 3D (altirud, latitud y longitud) de los triangulos de alineaciones solares y su disismilitud y similitud con respecto al triangulo de observacion ideal. }
    \includegraphics[width=0.45\textwidth]{images/triangles_with_arcs.png}
-\captionof{figure}{ Representacion 3D y 2D de los triangulos de alineaciones solares y su disismilitud y similitud con respecto al triangulo de observacion ideal. }
+    \captionof{figure}{ Representacion  2D latitud y longitud de los triangulos de alineaciones solares. }
 
 \justifying
 
 
 \section{Resultados y analisis}
-los ángulos obtenidos en el cuadro 2 evidencian una alta correspondencia entre el cálculo teórico del punto de observación ideal del amanecer solar y la ubicación de la ermita de san miguel del principe, en el Chorro de Quevedo, este sitio considerado el lugar fundacional de la ciudad de Bogotá. La precisión del alineamiento sugiere que desde este punto es posible observar con gran cercanía la trayectoria solar en fechas de solsticios y equinoccios, lo que sugiere  que el punto de inicio de la ciudad no fue elegido al azar, sino que responde a criterios astronómicos o simbólicos asociados a la cosmovisión indígena.
-
+idea 1
+los ángulos obtenidos en el cuadro 2 evidencian una alta correspondencia entre el cálculo teórico del punto de observación ideal del amanecer solar y la ubicación de la ermita de san miguel del principe, en el Chorro de Quevedo, este sitio considerado el lugar fundacional de la ciudad de Bogotá. La precisión del alineamiento sugiere que desde este punto es posible observar con gran cercanía la alineacion natural durante solsticios y equinoccios, lo que sugiere  que el punto de inicio de la ciudad no fue elegido al azar, sino que responde a criterios astronómicos o simbólicos asociados a la cosmovisión indígena.
+idea 2
 Curiosamente, el área del Chorro de Quevedo se encuentra próxima a una vía cuyo nombre histórico es la Calle del sol, hecho que adquiere relevancia al contrastarlo con la alineación calculada. Esta coincidencia entre la orientación astronómica y la toponimia urbana parece reflejar una continuidad simbólica entre el orden espacial colonial y la antigua observación del cielo.
 
-En 1774, el virrey Manuel Guirior, el 10 de noviembre, ordenó la organización y denominación de las calles principales de Bacatá, instruyendo a los alcaldes locales para asignar nombres distintivos a cada una de ellas. Tal como señala Mejía (1999), “todo nombre de calles implicaba una asociación que permitía materializar en la mente de los habitantes una forma colectiva de percibir el espacio”. En este sentido, la existencia de una “Calle de la Luna” en las inmediaciones del punto fundacional puede interpretarse como un vestigio de esa práctica simbólica: una forma de inscribir en la ciudad una relación entre el espacio urbano y los fenómenos celestes.
+En 1774, el virrey Manuel Guirior, el 10 de noviembre, ordenó la organización y denominación de las calles principales de Bacatá, instruyendo a los alcaldes locales para asignar nombres distintivos a cada una de ellas. Tal como señala Mejía (1999), “todo nombre de calles implicaba una asociación que permitía materializar en la mente de los habitantes una forma colectiva de percibir el espacio”. En este sentido, la existencia de una “Calle del sol” en las inmediaciones del punto fundacional puede interpretarse como un vestigio de esa práctica simbólica: una forma de inscribir en la ciudad una relación entre el espacio urbano y los fenómenos celestes.
 
-El Chorro de Quevedo, además de ser reconocido como el punto donde se fundó la ciudad por Gonzalo Jiménez de Quesada, tuvo probablemente una función previa de carácter ritual o astronómico para las comunidades muiscas, quienes realizaban observaciones del Sol y la Luna desde puntos estratégicos del altiplano. Por su posición elevada y su visibilidad del horizonte oriental, el lugar habría facilitado la identificación de los ciclos lunares y solares, fundamentales en el calendario agrícola y ceremonial indígena.
+idea 3
+La catedral primada de bogota no posee la mejor alineacion respecto a os anculos teoricos ni tampoco un fuerte fundamento historico. Poe el contrario, El Chorro de Quevedo, además de ser reconocido como el punto donde se fundó la ciudad por Gonzalo Jiménez de Quesada, tuvo probablemente una función previa de carácter ritual o astronómico para las comunidades muiscas, quienes realizaban observaciones del Sol y la Luna desde puntos estratégicos del altiplano. Por su posición elevada y su visibilidad del horizonte oriental, el lugar habría facilitado la identificación de los ciclos lunares y solares, fundamentales en el calendario agrícola y ceremonial indígena.
 
-En conjunto, la coincidencia entre la alineación astronómica, la denominación histórica de la “Calle de la Luna” y la ubicación fundacional del Chorro de Quevedo sugiere una continuidad de sentido entre el pasado indígena y el trazado colonial, donde el espacio urbano conserva, de manera simbólica o inconsciente, la memoria de su antigua relación con los cuerpos celestes.
+Idea 4 
+
+Area de observacion, inclusion de esta practica dentro de la actual cultura bogotana contemporanea
 
 \section{Conclusions}
 The proposed alignment process, detailed in   Sections
